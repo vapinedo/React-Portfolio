@@ -1,8 +1,8 @@
 import React from 'react'
-import AnimatedBg from '@shared/components/AnimatedBg'
+import Hero from '@shared/components/Hero'
 
 export const HomePage = () => {
   return (
-    <AnimatedBg />
+    <Hero />
   )
 }
