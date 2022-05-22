@@ -7,7 +7,7 @@ export function Hero() {
   };
 
   return (
-    <section className="hero">
+    <section className="hero landing-page-section">
       <div className="hero-heading">
         <h1>Hello, I'm Valp</h1>
         <h2>I'm a Frontend Developer</h2>
