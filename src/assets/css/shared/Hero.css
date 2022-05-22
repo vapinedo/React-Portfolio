@@ -1,20 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Exo:400,700');
-
-* {
-    margin: 0px;
-    padding: 0px;
-}
-body {
-    font-family: 'Exo', sans-serif;
-}
 .hero-heading {
     top:40vh;
     width: 100%;
-    position: absolute;
-    
-}
-.hero-heading {
-    margin: auto
+    position: absolute;    
 }
 .hero-heading h1 {
     text-align: center;
@@ -29,30 +16,26 @@ body {
 .hero-heading a {
     text-align: center;
     display: block;
-    width: 240px;
+    width: 230px;
     margin: auto;
     margin-top: 25px;
     color: white;
     border: 1px solid white;
-    padding: 10px 10px;
+    padding: 13px 10px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 1.1rem;
 }
-
-.area {
-    background: rgb(251,63,155);
+.hero-heading a:hover {
+    cursor: pointer;
+    background-color: red;
+}
+.hero {
+    width: 100%;
+    height: 100vh;
     background: linear-gradient(180deg, rgba(251,63,155,1) 0%, rgba(78,84,200,1) 100%);
-    width: 100%;
-    height:100vh;
 }
-.circles {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-}
-
-.circles li {
+.hero .shape {
     width: 20px;
     height: 20px;
     display: block;
@@ -62,26 +45,26 @@ body {
     background: rgba(255, 255, 255, 0.2);
     animation: animate 25s linear infinite;
 }
-.circles li:nth-child(1) {
+.hero .shape:nth-child(1) {
     left: 25%;
     width: 80px;
     height: 80px;
     animation-delay: 0s;
 }
-.circles li:nth-child(2) {
+.hero .shape:nth-child(2) {
     left: 10%;
     width: 20px;
     height: 20px;
     animation-delay: 2s;
     animation-duration: 12s;
 }
-.circles li:nth-child(3) {
+.hero .shape:nth-child(3) {
     left: 70%;
     width: 20px;
     height: 20px;
     animation-delay: 4s;
 }
-.circles li:nth-child(4) {
+.hero .shape:nth-child(4) {
     left: 40%;
     width: 60px;
     height: 60px;
@@ -89,39 +72,39 @@ body {
     animation-duration: 18s;
 }
 
-.circles li:nth-child(5) {
+.hero .shape:nth-child(5) {
     left: 65%;
     width: 20px;
     height: 20px;
     animation-delay: 0s;
 }
-.circles li:nth-child(6) {
+.hero .shape:nth-child(6) {
     left: 75%;
     width: 110px;
     height: 110px;
     animation-delay: 3s;
 }
-.circles li:nth-child(7) {
+.hero .shape:nth-child(7) {
     left: 35%;
     width: 150px;
     height: 150px;
     animation-delay: 7s;
 }
-.circles li:nth-child(8) {
+.hero .shape:nth-child(8) {
     left: 50%;
     width: 25px;
     height: 25px;
     animation-delay: 15s;
     animation-duration: 45s;
 }
-.circles li:nth-child(9) {
+.hero .shape:nth-child(9) {
     left: 20%;
     width: 15px;
     height: 15px;
     animation-delay: 2s;
     animation-duration: 35s;
 }
-.circles li:nth-child(10) {
+.hero .shape:nth-child(10) {
     left: 85%;
     width: 150px;
     height: 150px;
